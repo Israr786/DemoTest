@@ -77,7 +77,7 @@ class HomeViewModel<T:ServiceProtocol>:HomeViewModelProtocol {
         }
         return nil
     }
-    func getNumberOfAlumbs()->Int {
+    func getNumberOfAlumbs() -> Int {
         if let musicFeed = musicFeed {
             return musicFeed.feed.results.count
         }

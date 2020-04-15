@@ -18,8 +18,6 @@ final class HomeViewController: UIViewController {
 
     var homeViewModel:HomeViewModel<Service<MusicFeeds>>?
     var tableView:UITableView?
-    
-    
 
     override func viewDidLoad() {
         super.viewDidLoad()
